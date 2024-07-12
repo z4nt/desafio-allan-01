@@ -4,8 +4,6 @@
 var array4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 function multiplicaPor5EapenasPares(param) {
-    var toReturn = param.map(item => item * 5).filter(item => item%2 == 0)
-
-  return toReturn;
+  return toReturn = param.map(item => item * 5).filter(item => item%2 == 0)
 }
 console.log(multiplicaPor5EapenasPares(array4));
